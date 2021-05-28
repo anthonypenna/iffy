@@ -1,0 +1,50 @@
+{
+  "name": "@pennah/iffy",
+  "version": "1.0.1",
+  "description": "✨ Javascript \"if / else\" expressions ✨",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watchAll",
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonypenna/iffy.git"
+  },
+  "keywords": [
+    "javascript",
+    "if",
+    "else",
+    "expressions"
+  ],
+  "author": {
+    "email": "penna1296@gmail.com",
+    "name": "anthonypenna",
+    "url": "https://github.com/anthonypenna"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonypenna/iffy/issues"
+  },
+  "homepage": "https://github.com/anthonypenna/iffy#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "husky": "^6.0.0",
+    "jest": "^27.0.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "ts-jest": "^27.0.1",
+    "typescript": "^4.3.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
